@@ -1,0 +1,15 @@
+.calendar-heading {
+  width: 100%;
+  text-align: center;
+  margin: 10rem 0 5rem 0;
+  font-size: 1.8rem;
+}
+
+.calendar-page-main {
+  margin: 5rem 0;
+}
+
+@media screen and (max-width: 786px) {
+  .calendar-page-main {
+    margin: 20rem 0;
+  }
