@@ -1,5 +1,7 @@
 .whole-page {
   background-image: url('../pics/background-living-room.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #overlay {
