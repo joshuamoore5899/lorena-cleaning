@@ -2,6 +2,7 @@
 
 //get data
 
+const form = document.querySelector('form');
 const nameInput = document.querySelector('#name');
 const email = document.querySelector('#email');
 const message = document.querySelector('#message');
@@ -35,6 +36,7 @@ function validateForm() {
 
   if (!errorFlag) {
     success.innerText = "Success!";
+    form.submit();
   }
 }
 
