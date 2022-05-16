@@ -35,8 +35,8 @@ function validateForm() {
   }
 
   if (!errorFlag) {
-    success.innerText = "Success!";
     form.submit();
+    success.innerText = "Success!";
   }
 }
 

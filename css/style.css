@@ -135,6 +135,11 @@ nav ul a:hover {
   font-size: 2.5rem;
 }
 
+.service-description p {
+  color: dimgray;
+  font-size: 2.5rem;
+}
+
 .card p {
   line-height: 1.6;
   width: 90%;
